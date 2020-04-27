@@ -58,7 +58,7 @@ function Messages({ profileAvatar, showTimeStamp }: Props) {
           {getComponentToRender(message)}
         </div>
       )}
-      <Loader typing={typing} />
+      {/* <Loader typing={typing} /> */}
     </div>
   );
 }
